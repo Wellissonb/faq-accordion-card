@@ -9,8 +9,8 @@
 
 ### Links
 
-- Solution URL: [Add solution URL here]
-- Live Site URL: [Add live site URL here]
+- Solution URL: [https://github.com/Wellissonb/faq-accordion-card]
+- Live Site URL: [https://wellissonb.github.io/faq-accordion-card/]
 
 ## My process
 
