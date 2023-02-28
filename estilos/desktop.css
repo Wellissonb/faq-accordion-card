@@ -1,0 +1,60 @@
+@charset 'UTF-8';
+
+@media screen and (min-width: 1050px){
+
+    main{
+        width: 900px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-image: none;
+        padding: 0px;
+        display: flex;
+    }
+
+    section{
+        padding: 80px 80px 80px 0px;
+        width: 50%;
+
+    }
+
+    div#imagens{
+        width: 50%;
+        background-repeat: no-repeat;
+        background-image: url(../images/bg-pattern-desktop.svg);
+        background-size: 900px;
+        background-position: -510px -230px;
+        padding-right: 50px;
+        overflow: hidden;
+    }
+
+    img#img-desktop{
+        display: block;
+        position: relative;
+        left: -90px;
+        top: 70px;
+        
+        
+    }
+    img#img-mobile{
+        display: none;
+    }
+
+    img#bloco{
+        display: block;
+        z-index: 2;
+        align-self: center;
+        position: absolute;
+        top: 200px;
+        left: -120px;
+    
+    }
+
+    h1{
+        text-align: left;
+      
+    }
+
+
+}

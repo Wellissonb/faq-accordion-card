@@ -1,0 +1,153 @@
+@charset 'UTF-8';
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+:root{
+
+--Verydarkdesaturatedblue: hsl(238, 29%, 16%);
+--Softred: hsl(14, 88%, 65%);
+
+--Softviolet: hsl(273, 75%, 66%);
+--Softblue: hsl(240, 73%, 65%);
+
+--Verydarkgrayishblue: hsl(237, 12%, 33%);
+--Darkgrayishblue: hsl(240, 6%, 50%);
+
+--Lightgrayishblue: hsl(240, 5%, 91%);
+
+}
+
+
+body{
+    background-image: linear-gradient(to right, hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    height: 100vh;
+    width: 100vw;
+
+}
+
+main{
+    padding-top: 110px;
+    position: relative;
+    top: 120px;
+    border-radius: 20px;
+    width: 330px;
+    margin:auto;
+    background-color: white;
+
+    background-image: url(../images/bg-pattern-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: center 0px;
+    position: absolute;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.281);
+    
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@media only screen and (min-width: 600px){
+    main{
+        width: 580px;
+    }
+  
+}
+
+img#img-mobile{
+   width: 240px;
+    position: absolute;
+    left: 50%;
+    top: -110px;
+    transform: translateX(-50%);
+}
+
+h1{
+    font-size: 3em;
+    text-align: center;
+    color: var(--Verydarkdesaturatedblue);
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+section{
+    padding: 20px;
+    
+}
+
+section h2{
+    color: var(--Verydarkdesaturatedblue);
+    font-size: 13px;
+    font-weight: 400;
+}
+
+section h2:hover{
+    color: var(--Softred);
+}
+
+.container p{
+    color:var(--Darkgrayishblue);
+    line-height: 18px;
+    display: none;
+}
+
+.container{
+    border-bottom: 0.5px solid hsla(240, 6%, 50%, 0.384);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+}
+
+.container:hover h2{
+    color: var(--Softred);
+}
+
+.container:hover{
+        cursor: pointer;
+}
+
+.container-seta{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container-seta img{
+   align-self: center;
+   transform: rotateZ(0deg);
+}
+
+img#img-desktop{
+    display: none;
+
+}
+
+img#bloco{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
